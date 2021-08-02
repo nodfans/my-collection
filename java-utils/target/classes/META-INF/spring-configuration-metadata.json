@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "alipay",
+      "type": "com.utils.tools.alipay.pay.Config",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alipay.a-l-i-p-a-y-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    },
+    {
+      "name": "alipay.a-l-i-p-a-y-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "description": "支付宝公钥证书文件路径",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    },
+    {
+      "name": "alipay.a-l-i-p-a-y-r-o-o-t-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    },
+    {
+      "name": "alipay.a-l-i-p-a-y-r-o-o-t-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "description": "支付宝CA根证书文件路径",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    },
+    {
+      "name": "alipay.a-p-p-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    },
+    {
+      "name": "alipay.a-p-p-c-e-r-t-p-a-t-h",
+      "type": "java.lang.String",
+      "description": "应用公钥证书路径",
+      "sourceType": "com.utils.tools.alipay.pay.Config"
+    }
+  ],
+  "hints": []
+}
