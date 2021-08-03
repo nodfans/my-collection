@@ -2,7 +2,7 @@ package com.utils.util;
 
 import java.io.UnsupportedEncodingException;
 
-public class asciitochiness {
+public class AsciiToChinese {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
 

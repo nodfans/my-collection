@@ -1,4 +1,4 @@
-package com.access.server.util;
+package com.utils.util;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

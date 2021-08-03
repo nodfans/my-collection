@@ -532,7 +532,7 @@ public class DateUtil {
         private Long days;
     }
 
-    public static String timeDiffStr(Long time){
+    public static String timeDiffStr(Long time) {
         String result = "";
         DateUtil.TimeDiff timeDiff = DateUtil.getTimeDiff(time);
         if (timeDiff.getMinutes() < 60) {
@@ -543,6 +543,12 @@ public class DateUtil {
             result = timeDiff.getDays() + "天前";
         }
         return result;
+    }
+
+
+    public static String getCurrentDate() {
+        Date d = new Date();
+        return new SimpleDateFormat("yyyy-MM-dd").format(d);
     }
 
 }
