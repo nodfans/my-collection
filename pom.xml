@@ -19,6 +19,7 @@
 
     <modules>
         <module>java-utils</module>
+        <module>java-reactor</module>
     </modules>
 
 
